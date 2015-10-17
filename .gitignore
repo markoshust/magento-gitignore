@@ -1,0 +1,39 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# 
+# Magento Gitignore
+# https://bitbucket.org/markoshust/magento_gitignore
+# Author: Mark Shust <mark@shust.com>
+# Version: 1.3.1
+.buildpath
+.cache
+.cproject
+.DS_Store
+.idea
+.project
+.sass-cache
+.settings
+.svn
+.tmproj
+*~
+*.bak
+*.db
+*.swp
+*.tmp
+app/code/local/Mage
+app/etc/local.xml
+downloader/.cache
+downloader/cache.cfg
+downloader/connect.cfg
+downloader/pearlib/cache
+downloader/pearlib/download
+google*.html
+includes/src
+includes/stat
+media/*/
+nbproject
+sitemap.xml
+staging
+var/*/
+var/resource_config.json
+!var/package
